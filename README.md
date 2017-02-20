@@ -1,2 +1,2 @@
-# test
-Test project
+# React test project
+React test project.
