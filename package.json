@@ -4,7 +4,9 @@
   "description": "React test project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/belkaaa/test/issues"
   },
-  "homepage": "https://github.com/belkaaa/test#readme"
+  "homepage": "https://github.com/belkaaa/test#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "webpack": "^2.2.1"
+  }
 }
