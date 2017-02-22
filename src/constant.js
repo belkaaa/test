@@ -1,1 +1,1 @@
-module.exports = 'App: init 3';
+module.exports = 'App: init 500';

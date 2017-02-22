@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <p id="test">React test project 338.</p>
+    <h1><%= htmlWebpackPlugin.options.title %> ***</h1>
+    <ul>
+        <% for(var i=0; i < 8; i++) { %>
+        <li><a href='#'>Item <%= i %></a></li>
+        <% } %>
+    </ul>
+</body>
+</html>

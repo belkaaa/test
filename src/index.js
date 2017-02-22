@@ -1,9 +1,11 @@
+require('./app.scss');
+
 var $ = require('jquery');
 var str = require('./constant');
 
 var App = function() {
     // console.log(str);
-    $('body').html('<h1>' + str + '</h1>');
+    $('#test').html(str + '_index_');
 };
 
 var app = new App();
